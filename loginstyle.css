@@ -45,33 +45,33 @@
 #emailtext {
     position: fixed;
     width: 100%;
-    top:120px;
+    top:100px;
     left: 25%;
 }
 #email{
     position: fixed;
     width: 50%;
-    top: 150px;
+    top: 120px;
     left: 25%;
     border: 3px solid lightgrey;
 }
 #passwordtext {
     position: fixed;
     width: 100%;
-    top:220px;
+    top:180px;
     left: 25%;
 }
 #password {
     position: fixed;
     width: 50%;
-    top: 250px;
+    top: 200px;
     left: 25%;
     border: 3px solid lightgrey;
 }
 #inputbutton {
     position: fixed;
     width: 50%;
-    top: 320px;
+    top: 260px;
     left: 25%;
     text-align: center;
     background-color: slateblue;
