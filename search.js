@@ -19,7 +19,13 @@ function openMyAccount() {
     close("search.html");
 }
 
-function search() {
-    //search
+var searchfor;
+var newtext;
+function searching() {
+    searchfor = document.getElementById("searchinput").value;
+    newtext = "Showing results for: "+searchfor+" . . . ";
+    document.getElementById("searchresult").innerHTML = newtext;
+    // check with database for match
+    
     return 1;
 }
