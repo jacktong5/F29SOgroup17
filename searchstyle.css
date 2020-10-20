@@ -61,3 +61,27 @@
 #body {
     background-color: whitesmoke;
 }
+#searchinput {
+    position: fixed;
+    top: 90px;
+    width: 75%;
+    left: 1%;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    border: 2px solid black;
+}
+#inputbutton {
+    position: fixed;
+    top: 90px;
+    width: 22%;
+    left: 77%;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    background-color: slateblue;
+    border: 2px solid black;
+}
+#inputbutton:hover {
+    background-color: grey;
+}

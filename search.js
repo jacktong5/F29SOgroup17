@@ -18,3 +18,8 @@ function openMyAccount() {
     open("myaccount.html");
     close("search.html");
 }
+
+function search() {
+    //search
+    return 1;
+}
