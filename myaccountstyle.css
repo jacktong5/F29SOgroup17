@@ -1,0 +1,63 @@
+#namebanner {
+    position: fixed;
+    left: 0%;
+    top: -27px;
+    background-color: slateblue;
+    color: white;
+    width: 100%;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    text-align: center;
+}
+
+#feed, #recommended, #search, #channels, #challenges, #myaccount {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    font-size: 30px;
+    width: 16%;
+    border: lightgray;
+}
+#feed {
+    position: fixed;
+    top: 45px;
+    left: 2%;
+    background-color: lightgray;
+}
+#recommended {
+    position: fixed;
+    top:45px;
+    left: 18%;
+    background-color: lightgray;
+}
+#search {
+    position: fixed;
+    top:45px;
+    left: 34%;
+    background-color: lightgray;
+}
+#channels {
+    position: fixed;
+    top:45px;
+    left: 50%;
+    background-color: lightgray;
+}
+#challenges {
+    position: fixed;
+    top:45px;
+    left: 66%;
+    background-color: lightgray;
+}
+#myaccount {
+    position: fixed;
+    top:45px;
+    left: 82%;
+    background-color: whitesmoke;
+}
+#feed:hover, #recommended:hover, #search:hover, #channels:hover, #challenges:hover, #myaccount:hover {
+    background-color: grey;
+    color: white;
+}
+#body {
+    background-color: whitesmoke;
+}
