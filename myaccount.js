@@ -18,3 +18,12 @@ function openSearch() {
     open("search.html");
     close("myaccount.html");
 }
+
+
+
+function newPost() {
+    // user upload picture
+    // user add to a channel
+    // user add geotags
+    return 1
+}

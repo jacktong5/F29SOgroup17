@@ -18,3 +18,8 @@ function openSearch() {
     open("search.html");
     close("challenges.html");
 }
+
+function newChallenge() {
+    // do stuff here 
+    return 1;
+}

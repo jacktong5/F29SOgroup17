@@ -61,3 +61,36 @@
 #body {
     background-color: whitesmoke;
 }
+#myusername {
+    position: relative;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    font-weight: bold;
+    top: 65px;
+    left: 30px;
+    text-align: center;
+}
+#myaveragerate {
+    position: relative;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    top: 30px;
+    color: black;
+    left: 30px;
+    text-align: center;
+}
+#createpost {
+    position: relative;
+    top: 30px;
+    width: 22%;
+    left: 77%;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    background-color: slateblue;
+    border: 2px solid black;
+}
+#createpost:hover {
+    background-color: grey;
+}

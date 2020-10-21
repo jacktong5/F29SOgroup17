@@ -18,3 +18,10 @@ function openMyAccount() {
     open("myaccount.html");
     close("channels.html");
 }
+
+function newChannel() {
+    // prompt user for channel name
+    // channel tags
+    // channel public or private
+    return 1;
+}

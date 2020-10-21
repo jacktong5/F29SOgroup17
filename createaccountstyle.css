@@ -16,18 +16,20 @@
     font-weight: lighter;
     font-size: 30px;
     width: 50%;
-    border: lightgray;
-    background-color: lightgray;
 }
 #loginbutton {
     position: fixed;
     top: 45px;
     left: 0%;
+    border: lightgray;
+    background-color: lightgray;
 }
 #createaccountbutton {
     position: fixed;
     top:45px;
     left: 50%;
+    border: whitesmoke;
+    background-color: whitesmoke;
 }
 #loginbutton:hover, #createaccountbutton:hover {
     background-color: grey;
