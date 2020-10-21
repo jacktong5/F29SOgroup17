@@ -1,4 +1,4 @@
-# F29SOgroup17 Software Engineering Group Project Coursework
+# F29SOgroup17 
 rcd11 Davidson, Ross 
 tf50 Friedenthal, Tegan 
 ng47 Ghayyda, Nabil 
