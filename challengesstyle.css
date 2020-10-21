@@ -11,47 +11,44 @@
     text-align: center;
 }
 
-#feed, #recommended, #search, #channels, #challenges, #myaccount {
+ul {
+    position: fixed;
+    top: 45px;
+    width: 100%;
+    list-style-type: none;
+    left: 0px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightgray;
+}
+li {
+    float: left;
+  }
+li button {
+    display: block;
     font-family: 'Courier New', Courier, monospace;
     font-weight: lighter;
     font-size: 30px;
-    width: 16%;
+    width: 250px;
     border: lightgray;
 }
 #feed {
-    position: fixed;
-    top: 45px;
-    left: 2%;
     background-color: lightgray;
 }
 #recommended {
-    position: fixed;
-    top:45px;
-    left: 18%;
     background-color: lightgray;
 }
 #search {
-    position: fixed;
-    top:45px;
-    left: 34%;
     background-color: lightgrey;
 }
 #channels {
-    position: fixed;
-    top:45px;
-    left: 50%;
     background-color: lightgray;
 }
 #challenges {
-    position: fixed;
-    top:45px;
-    left: 66%;
     background-color: whitesmoke;
 }
 #myaccount {
-    position: fixed;
-    top:45px;
-    left: 82%;
     background-color: lightgray;
 }
 #feed:hover, #recommended:hover, #search:hover, #channels:hover, #challenges:hover, #myaccount:hover {
