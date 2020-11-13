@@ -58,3 +58,35 @@ li button {
 #body {
     background-color: whitesmoke;
 }
+#image1 {
+    position: relative;
+    width: 20%;
+    height: auto;
+    left: 2.5%;
+    top: 150px;
+    border: 2px solid black;
+}
+#image2 {
+    position: relative;
+    width: 20%;
+    height: auto;
+    left: 5%;
+    top: 150px;
+    border: 2px solid black;
+}
+#image3 {
+    position: relative;
+    width: 20%;
+    height: auto;
+    left: 7.5%;
+    top: 150px;
+    border: 2px solid black;
+}
+#image4 {
+    position: relative;
+    width: 20%;
+    height: auto;
+    left: 10%;
+    top: 150px;
+    border: 2px solid black;
+}

@@ -77,8 +77,8 @@ li button {
     text-align: center;
 }
 #createpost {
-    position: relative;
-    top: 30px;
+    position: fixed;
+    top: 200px;
     width: 22%;
     left: 77%;
     font-size: 20px;
@@ -90,16 +90,30 @@ li button {
 #createpost:hover {
     background-color: grey;
 }
-#creatingpost {
+#settings {
     position: fixed;
+    top: 230px;
+    width: 22%;
+    left: 77%;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    background-color: slateblue;
+    border: 2px solid black;
+}
+#settings:hover {
+    background-color: grey;
+}
+#temptext {
+    position: relative;
     font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
-    top: 230px;
+    top: 50px;
     left: 25%;
     width: 50%;
     visibility: visible;
     white-space: pre-line;
     text-align: center;
-
+    background-color: lightgrey;
 }

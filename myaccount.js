@@ -23,9 +23,18 @@ function openSearch() {
 
 function newPost() {
     newtext = "create a new post . . . \nAttach image \nAdd geotag \nAdd hashtags \nAdd to channel \nAdd picture caption ";
-    document.getElementById("creatingpost").innerHTML = newtext;
+    document.getElementById("temptext").innerHTML = newtext;
+    document.getElementById("temptext").style.border= "2px solid black";
+
     // user upload picture
     // user add to a channel
     // user add geotags
+    return 1
+}
+
+function settings() {
+    newtext = "account settings . . . \nChange password \nDelete account \nDo something? \nDo another something?";
+    document.getElementById("temptext").innerHTML = newtext;
+    document.getElementById("temptext").style.border= "2px solid black";
     return 1
 }
