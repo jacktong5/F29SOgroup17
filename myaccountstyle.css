@@ -90,3 +90,16 @@ li button {
 #createpost:hover {
     background-color: grey;
 }
+#creatingpost {
+    position: fixed;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    top: 230px;
+    left: 25%;
+    width: 50%;
+    visibility: visible;
+    white-space: pre-line;
+    text-align: center;
+
+}

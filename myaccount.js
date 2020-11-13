@@ -22,6 +22,8 @@ function openSearch() {
 
 
 function newPost() {
+    newtext = "create a new post . . . \nAttach image \nAdd geotag \nAdd hashtags \nAdd to channel \nAdd picture caption ";
+    document.getElementById("creatingpost").innerHTML = newtext;
     // user upload picture
     // user add to a channel
     // user add geotags
