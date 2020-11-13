@@ -23,8 +23,15 @@ var searchfor;
 var newtext;
 function searching() {
     searchfor = document.getElementById("searchinput").value;
-    newtext = "Showing results for: "+searchfor+" . . . ";
-    document.getElementById("searchresult").innerHTML = newtext;
+    if (searchfor != "") {
+        newtext = "Showing results for: "+searchfor+" . . . \n1 result found";
+        document.getElementById("searchresult").innerHTML = newtext;
+        document.getElementById("image1").style.display = "block";
+    }
+    else if (searchfor == "") {
+        newtext = "You didnt enter any key words to search for . . .  ";
+        document.getElementById("searchresult").innerHTML = newtext;
+    }
     // check with database for match
     
     return 1;
